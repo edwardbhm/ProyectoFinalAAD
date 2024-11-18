@@ -103,7 +103,7 @@ public class Profesorado {
             }
 
             root.appendChild(crearNodoProfesor(doc, nuevoProfesor));
-            profesores.add(nuevoProfesor); // Agrega el nuevo profesor a la lista
+            profesores.add(nuevoProfesor); 
 
             Transformer transformer = TransformerFactory.newInstance().newTransformer();
             transformer.setOutputProperty(OutputKeys.INDENT, "yes");

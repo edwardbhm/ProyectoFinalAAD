@@ -9,7 +9,6 @@ public class Profesor {
     private String departamento;
     private double sueldo;
 
-    // Constructor
     public Profesor(String nombre, String apellidos, String mail, String genero, int fechaComienzo, String departamento, double sueldo) {
         this.nombre = nombre;
         this.apellidos = apellidos;
@@ -20,7 +19,6 @@ public class Profesor {
         this.sueldo = sueldo;
     }
 
-    // Getters
     public String getNombre() { return nombre; }
     public String getApellidos() { return apellidos; }
     public String getMail() { return mail; }
