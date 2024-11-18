@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<profesorado>
+    <profesor genero="F">
+        <nombre>Noelia</nombre>
+        <apellidos>Cardoso</apellidos>
+        <mail>noelia.cardoso@salesianas.org</mail>
+        <fecha-comienzo>2020</fecha-comienzo>
+        <departamento>Informática</departamento>
+        <sueldo>1900.0</sueldo>
+    </profesor>
+    <profesor genero="M">
+        <nombre>Carlos</nombre>
+        <apellidos>Sánchez</apellidos>
+        <mail>carlos.sanchez@salesianas.org</mail>
+        <fecha-comienzo>2021</fecha-comienzo>
+        <departamento>Informática</departamento>
+        <sueldo>1800.0</sueldo>
+    </profesor>
+    <profesor genero="M">
+        <nombre>Juan</nombre>
+        <apellidos>León</apellidos>
+        <mail>juan.leon@salesianas.org</mail>
+        <fecha-comienzo>2021</fecha-comienzo>
+        <departamento>Informática</departamento>
+        <sueldo>1800.0</sueldo>
+    </profesor>
+    <profesor genero="M">
+        <nombre>Alberto</nombre>
+        <apellidos>Cobos</apellidos>
+        <mail>alberto.cobos@salesianas.org</mail>
+        <fecha-comienzo>2016</fecha-comienzo>
+        <departamento>Administrativo</departamento>
+        <sueldo>1400.0</sueldo>
+    </profesor>
+    <profesor genero="M">
+        <nombre>Juan</nombre>
+        <apellidos>Borrero</apellidos>
+        <mail>juan.borrero@salesianas.org</mail>
+        <fecha-comienzo>2011</fecha-comienzo>
+        <departamento>Administrativo</departamento>
+        <sueldo>1800.0</sueldo>
+    </profesor>
+    <profesor genero="F">
+        <nombre>Silvia</nombre>
+        <apellidos>Alonso</apellidos>
+        <mail>silvia.alonso@salesianas.org</mail>
+        <fecha-comienzo>2013</fecha-comienzo>
+        <departamento>Farmacia</departamento>
+        <sueldo>2200.0</sueldo>
+    </profesor>
+    <profesor genero="F">
+        <nombre>Laura</nombre>
+        <apellidos>Gómez</apellidos>
+        <mail>laura.gomez@salesianas.org</mail>
+        <fecha-comienzo>2024</fecha-comienzo>
+        <departamento>Informática</departamento>
+        <sueldo>2000.0</sueldo>
+    </profesor>
+</profesorado>

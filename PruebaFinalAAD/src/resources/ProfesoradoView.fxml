@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="profesorado.ProfesoradoController">
+    <children>
+        <VBox spacing="10" alignment="CENTER">
+            <Button text="Mostrar Todos" fx:id="btnMostrarTodos" onAction="#handleMostrarTodos" />
+            <Button text="Mostrar Profesoras" fx:id="btnMostrarProfesoras" onAction="#handleMostrarProfesoras" />
+            <Button text="Mostrar Informáticos" fx:id="btnMostrarInformaticos" onAction="#handleMostrarInformaticos" />
+            <Button text="Profesor/a Más Antiguo/a" fx:id="btnMasAntiguo" onAction="#handleMasAntiguo" />
+            <Button text="Suma Total de Sueldos" fx:id="btnSumaSueldos" onAction="#handleSumaSueldos" />
+            <Button text="Añadir Profesor/a" fx:id="btnAñadirProfesor" onAction="#handleAñadirProfesor" />
+            <Button text="Mostrar Nuevo XML" fx:id="btnMostrarNuevoXML" onAction="#handleMostrarNuevoXML" />
+            <TextArea fx:id="textOutput" prefHeight="200" prefWidth="400" wrapText="true" />
+        </VBox>
+    </children>
+</AnchorPane>

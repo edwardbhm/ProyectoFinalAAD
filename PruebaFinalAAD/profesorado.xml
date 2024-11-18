@@ -1,0 +1,50 @@
+<profesorado>
+	<profesor genero="F">
+		<nombre>Noelia</nombre>
+		<apellidos>Cardoso</apellidos>
+		<mail>noelia.cardoso@salesianas.org</mail>
+		<fecha-comienzo>2020</fecha-comienzo>
+		<departamento>Informática</departamento>
+		<sueldo>1900</sueldo>
+	</profesor>
+	<profesor genero="M">
+		<nombre>Carlos</nombre>
+		<apellidos>Sánchez</apellidos>
+		<mail>carlos.sanchez@salesianas.org</mail>
+		<fecha-comienzo>2021</fecha-comienzo>
+		<departamento>Informática</departamento>
+		<sueldo>1800</sueldo>
+	</profesor>
+	<profesor genero="M">
+		<nombre>Juan</nombre>
+		<apellidos>León</apellidos>
+		<mail>juan.leon@salesianas.org</mail>
+		<fecha-comienzo>2021</fecha-comienzo>
+		<departamento>Informática</departamento>
+		<sueldo>1800</sueldo>
+	</profesor>
+	<profesor genero="M">
+		<nombre>Alberto</nombre>
+		<apellidos>Cobos</apellidos>
+		<mail>alberto.cobos@salesianas.org</mail>
+		<fecha-comienzo>2016</fecha-comienzo>
+		<departamento>Administrativo</departamento>
+		<sueldo>1400</sueldo>
+	</profesor>
+		<profesor genero="M">
+		<nombre>Juan</nombre>
+		<apellidos>Borrero</apellidos>
+		<mail>juan.borrero@salesianas.org</mail>
+		<fecha-comienzo>2011</fecha-comienzo>
+		<departamento>Administrativo</departamento>
+		<sueldo>1800</sueldo>
+	</profesor>
+		<profesor genero="F">
+		<nombre>Silvia</nombre>
+		<apellidos>Alonso</apellidos>
+		<mail>silvia.alonso@salesianas.org</mail>
+		<fecha-comienzo>2013</fecha-comienzo>
+		<departamento>Farmacia</departamento>
+		<sueldo>2200</sueldo>
+	</profesor>
+</profesorado>
