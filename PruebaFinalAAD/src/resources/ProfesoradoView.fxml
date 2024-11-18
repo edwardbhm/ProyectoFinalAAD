@@ -11,7 +11,7 @@
             <Button text="Profesor/a Más Antiguo/a" fx:id="btnMasAntiguo" onAction="#handleMasAntiguo" />
             <Button text="Suma Total de Sueldos" fx:id="btnSumaSueldos" onAction="#handleSumaSueldos" />
             <Button text="Añadir Profesor/a" fx:id="btnAñadirProfesor" onAction="#handleAñadirProfesor" />
-            <Button text="Mostrar Nuevo XML" fx:id="btnMostrarNuevoXML" onAction="#handleMostrarNuevoXML" />
+            <Button text="Mostrar Todos Actualizado" fx:id="btnMostrarNuevoXML" onAction="#handleMostrarNuevoXML" />
             <TextArea fx:id="textOutput" prefHeight="200" prefWidth="400" wrapText="true" />
         </VBox>
     </children>
