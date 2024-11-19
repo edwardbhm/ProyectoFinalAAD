@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
 
-<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="profesorado.ProfesoradoController">
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="474.0" prefWidth="400.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/22" fx:controller="profesorado.ProfesoradoController">
     <children>
-        <VBox spacing="10" alignment="CENTER">
-            <Button text="Mostrar Todos" fx:id="btnMostrarTodos" onAction="#handleMostrarTodos" />
-            <Button text="Mostrar Profesoras" fx:id="btnMostrarProfesoras" onAction="#handleMostrarProfesoras" />
-            <Button text="Mostrar Informáticos" fx:id="btnMostrarInformaticos" onAction="#handleMostrarInformaticos" />
-            <Button text="Profesor/a Más Antiguo/a" fx:id="btnMasAntiguo" onAction="#handleMasAntiguo" />
-            <Button text="Suma Total de Sueldos" fx:id="btnSumaSueldos" onAction="#handleSumaSueldos" />
-            <Button text="Añadir Profesor/a" fx:id="btnAñadirProfesor" onAction="#handleAñadirProfesor" />
-            <Button text="Mostrar Todos Actualizado" fx:id="btnMostrarNuevoXML" onAction="#handleMostrarNuevoXML" />
-            <TextArea fx:id="textOutput" prefHeight="200" prefWidth="400" wrapText="true" />
+        <VBox alignment="CENTER" prefHeight="474.0" prefWidth="400.0" spacing="10" style="-fx-background-color: #EDC6D4;">
+            <Button fx:id="btnMostrarTodos" onAction="#handleMostrarTodos" style="-fx-background-radius: 15; -fx-background-color: #ffea95;" text="Mostrar Todos" />
+            <Button fx:id="btnMostrarProfesoras" onAction="#handleMostrarProfesoras" style="-fx-background-radius: 15; -fx-background-color: #ffea95;" text="Mostrar Profesoras" />
+            <Button fx:id="btnMostrarInformaticos" onAction="#handleMostrarInformaticos" style="-fx-background-radius: 15; -fx-background-color: #ffea95;" text="Mostrar Informáticos" />
+            <Button fx:id="btnMasAntiguo" onAction="#handleMasAntiguo" style="-fx-background-radius: 15; -fx-background-color: #ffea95;" text="Profesor/a Más Antiguo/a" />
+            <Button fx:id="btnSumaSueldos" onAction="#handleSumaSueldos" style="-fx-background-radius: 15; -fx-background-color: #ffea95;" text="Suma Total de Sueldos" />
+            <Button fx:id="btnAñadirProfesor" onAction="#handleAñadirProfesor" style="-fx-background-radius: 15; -fx-background-color: #ffea95;" text="Añadir Profesor/a" />
+            <Button fx:id="btnMostrarNuevoXML" onAction="#handleMostrarNuevoXML" style="-fx-background-radius: 15; -fx-background-color: #ffea95;" text="Mostrar Todos Actualizado" />
+            <TextArea fx:id="textOutput" prefHeight="188.0" prefWidth="302.0" style="-fx-background-color: #fff6cf;" wrapText="true" />
         </VBox>
     </children>
 </AnchorPane>
