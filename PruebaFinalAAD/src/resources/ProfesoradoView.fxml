@@ -5,16 +5,15 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
 
-<AnchorPane prefHeight="474.0" prefWidth="400.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/22" fx:controller="profesorado.ProfesoradoController">
+<AnchorPane prefHeight="369.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="profesorado.ProfesoradoController">
     <children>
-        <VBox alignment="CENTER" prefHeight="474.0" prefWidth="400.0" spacing="10" style="-fx-background-color: #EDC6D4;">
+        <VBox alignment="CENTER" prefHeight="430.0" prefWidth="400.0" spacing="10" style="-fx-background-color: #EDC6D4;">
             <Button fx:id="btnMostrarTodos" onAction="#handleMostrarTodos" style="-fx-background-radius: 15; -fx-background-color: #ffea95;" text="Mostrar Todos" />
             <Button fx:id="btnMostrarProfesoras" onAction="#handleMostrarProfesoras" style="-fx-background-radius: 15; -fx-background-color: #ffea95;" text="Mostrar Profesoras" />
             <Button fx:id="btnMostrarInformaticos" onAction="#handleMostrarInformaticos" style="-fx-background-radius: 15; -fx-background-color: #ffea95;" text="Mostrar Informáticos" />
             <Button fx:id="btnMasAntiguo" onAction="#handleMasAntiguo" style="-fx-background-radius: 15; -fx-background-color: #ffea95;" text="Profesor/a Más Antiguo/a" />
             <Button fx:id="btnSumaSueldos" onAction="#handleSumaSueldos" style="-fx-background-radius: 15; -fx-background-color: #ffea95;" text="Suma Total de Sueldos" />
             <Button fx:id="btnAñadirProfesor" onAction="#handleAñadirProfesor" style="-fx-background-radius: 15; -fx-background-color: #ffea95;" text="Añadir Profesor/a" />
-            <Button fx:id="btnMostrarNuevoXML" onAction="#handleMostrarNuevoXML" style="-fx-background-radius: 15; -fx-background-color: #ffea95;" text="Mostrar Todos Actualizado" />
             <TextArea fx:id="textOutput" prefHeight="188.0" prefWidth="302.0" style="-fx-background-color: #fff6cf;" wrapText="true" />
         </VBox>
     </children>
